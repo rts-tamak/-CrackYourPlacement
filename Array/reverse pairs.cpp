@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int reversePairs(vector<int>& nums) {
+    int reversePairs(vector<int>& nums)
+    {
         multiset<int> s;
         int count = 0;
 
